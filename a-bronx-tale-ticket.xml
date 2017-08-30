@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>  
+<Module> 
+  <ModulePrefs title="A Bronx Tale Tickets Gadget" />  
+  <Content type="html"> 
+  <![CDATA[  
+      <script type='text/javascript'>
+          function TN_SetWidgetOptions() {
+          TN_Widget.trackingParams = '';
+          TN_Widget.trackingLink = 'http://TicketNetwork.7eer.net/c/413527/133430/2322?subid1=gglsite&u=';
+          TN_Widget.CreateCustomUrl = function(row){return "http://TicketNetwork.7eer.net/c/413527/133430/2322?subid1=gglsite&u=" + escape('http://www.ticketnetwork.com/tix/' +  row[7] + "-tickets-"+ row[6] + ".aspx");};}
+      </script>
+      <script type='text/javascript' src='https://tn-widget.seatics.com/widget_TN.aspx?&kwds=A%20Bronx%20Tale%20Tickets&style=9&mxrslts=21' ></script>
+    ]]>
+ </Content>  
+</Module>
